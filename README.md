@@ -161,7 +161,7 @@ embed=<embed src="%cursor%">
 
 ![Step 2](./Step_2.png)
 
-> ### Step 3: Paste to the `[HTML]` section as replacement
+> ### Step 3: Paste to the `[HTML]` section as replacement and save it
 
 ![Step 3](./Step_3.png)
 
