@@ -169,4 +169,4 @@ embed=<embed src="%cursor%">
 
 ## Summary
 
-If you follow my instruction above, you will be able to the snippets. Hope it helps you. Feel free to open issue if you have any issues. 
+If you follow my instruction above, you will be able to use the snippets. Hope it helps you. Feel free to open issue if you have any issues. 
