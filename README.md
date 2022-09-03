@@ -155,6 +155,14 @@ sourceaudio=<source src="%cursor%" type="audio/mpeg">
 # HTML Plug-ins
 object=<object data="%cursor%"></object>
 embed=<embed src="%cursor%">
+# JavaScript
+if=if(%cursor%){\n\t\n}
+else=else{\n\t%cursor%\n}
+for=for(%cursor%){\n\t\n}
+while=while(%cursor%){\n\t\n}
+do=do{\n\t%cursor%\n}while()
+switch=switch(%cursor%){\n\tcase :\n\t\t\n\t\tbreak;\n\tdefault:\n\t\t\n}
+try=try{\n\t%cursor%\n}catch(){\n\t\n}
 ```
 
 > ### Step 2: Open Geany and go to Tools -> Configuration Files -> snippets.conf
