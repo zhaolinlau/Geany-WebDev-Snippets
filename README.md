@@ -336,21 +336,21 @@ embed=<embed src="%cursor%">
 
 ## Adding syntax highlighting & html snippets for .vue filetype
 
-> Step 1: Open Geany and go to Tools -> Configuration Files -> filetype_extensions.conf
+> ### Step 1: Open Geany and go to Tools -> Configuration Files -> filetype_extensions.conf
 >
 > ![Vue Step 1](./Vue_Step_1.png)
 
-> Step 2: Remove `#~ #` from `#~ # [Extensions]`
+> ### Step 2: Remove `#~ #` from `#~ # [Extensions]`
 >
 > *Now it should be look like* `[Extensions]`
 >
 > ![Vue Step 2](./Vue_Step_2.png)
 
-> Step 3: Remove `#~` from `#~ HTML=*.htm;*.html;*.shtml;*.hta;*.htd;*.htt;*.cfm;*.tpl;`
+> ### Step 3: Remove `#~` from `#~ HTML=*.htm;*.html;*.shtml;*.hta;*.htd;*.htt;*.cfm;*.tpl;`
 >
 > *Now it should be look like* `HTML=*.htm;*.html;*.shtml;*.hta;*.htd;*.htt;*.cfm;*.tpl;`
 
-> Step 4: Then add `*.vue;` to `HTML=*.htm;*.html;*.shtml;*.hta;*.htd;*.htt;*.cfm;*.tpl;`
+> ### Step 4: Then add `*.vue;` to `HTML=*.htm;*.html;*.shtml;*.hta;*.htd;*.htt;*.cfm;*.tpl;`
 >
 > *Now it should be look like* `HTML=*.htm;*.html;*.shtml;*.hta;*.htd;*.htt;*.cfm;*.tpl;*.vue;`
 > 
