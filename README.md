@@ -163,6 +163,8 @@ while=while(%cursor%){\n\t\n}
 do=do{\n\t%cursor%\n}while()
 switch=switch(%cursor%){\n\tcase :\n\t\t\n\t\tbreak;\n\tdefault:\n\t\t\n}
 try=try{\n\t%cursor%\n}catch(){\n\t\n}
+function=function %cursor%(){\n\t\n}
+class=class %cursor%{\n\t\n} 
 
 [JavaScript]
 if=if(%cursor%){\n\t\n}
@@ -172,6 +174,8 @@ while=while(%cursor%){\n\t\n}
 do=do{\n\t%cursor%\n}while()
 switch=switch(%cursor%){\n\tcase :\n\t\t\n\t\tbreak;\n\tdefault:\n\t\t\n}
 try=try{\n\t%cursor%\n}catch(){\n\t\n}
+function=function %cursor%(){\n\t\n}
+class=class %cursor%{\n\t\n} 
 
 [PHP]
 if=if(%cursor%){\n\t\n}
@@ -181,6 +185,8 @@ while=while(%cursor%){\n\t\n}
 do=do{\n\t%cursor%\n}while()
 switch=switch(%cursor%){\n\tcase :\n\t\t\n\t\tbreak;\n\tdefault:\n\t\t\n}
 try=try{\n\t%cursor%\n}catch(){\n\t\n}
+function=function %cursor%(){\n\t\n}
+class=class %cursor%{\n\t\n} 
 # HTML 5 Template
 html5=<!DOCTYPE html>\n<html lang="en">\n<head>\n\t<meta charset="UTF-8">\n\t<meta http-equiv="X-UA-Compatible" content="IE=edge">\n\t<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\t<title>%cursor%</title>\n</head>\n<body>\n\t\n</body>\n</html>
 # HTML Basic
