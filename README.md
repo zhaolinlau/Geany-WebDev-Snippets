@@ -343,6 +343,8 @@ embed=<embed src="%cursor%">
 > Step 2: Remove `#~ #` from `#~ # [Extensions]`
 >
 > *Now it should be look like* `[Extensions]`
+>
+> ![Vue Step 2](./Vue_Step_2.png)
 
 > Step 3: Remove `#~` from `#~ HTML=*.htm;*.html;*.shtml;*.hta;*.htd;*.htt;*.cfm;*.tpl;`
 >
