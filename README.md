@@ -325,17 +325,37 @@ embed=<embed src="%cursor%">
 ```
 
 > ### Step 2: Open Geany and go to Tools -> Configuration Files -> snippets.conf
+>
+> ![Step 2](./Step_2.png)
 
-![Step 2](./Step_2.png)
-
-> ### Step 3: Paste to the `[HTML]` and/or `[JavaScript]` and/or `[PHP]` section based on what language you want to replace
-
-![Step 3](./Step_3.png)
+> ### Step 3: Paste to the `[HTML]` and/or `[JavaScript]` and/or `[PHP]` based on what language you wanted to replace
+>
+> ![Step 3](./Step_3.png)
 
 > ### Step 4: Press `CTRL+S` to save it
 
-> ### Step 5: Happy coding!
+## Adding syntax highlighting & html snippets for .vue filetype
+
+> Step 1: Open Geany and go to Tools -> Configuration Files -> filetype_extensions.conf
+>
+> ![Vue Step 1](./Vue_Step_1.png)
+
+> Step 2: Remove `#~ #` from `#~ # [Extensions]`
+>
+> *Now it should be look like* `[Extensions]`
+
+> Step 3: Remove `#~` from `#~ HTML=*.htm;*.html;*.shtml;*.hta;*.htd;*.htt;*.cfm;*.tpl;`
+>
+> *Now it should be look like* `HTML=*.htm;*.html;*.shtml;*.hta;*.htd;*.htt;*.cfm;*.tpl;`
+
+> Step 4: Then add `*.vue;` to `HTML=*.htm;*.html;*.shtml;*.hta;*.htd;*.htt;*.cfm;*.tpl;`
+>
+> *Now it should be look like* `HTML=*.htm;*.html;*.shtml;*.hta;*.htd;*.htt;*.cfm;*.tpl;*.vue;`
+> 
+> ![Vue Step 4](./Vue_Step_4.png)
+
+> ### Step 5: Press `CTRL+S` to save it
 
 ## Summary
 
-If you follow my instruction above, you will be able to use the snippets. Hope it helps you. Feel free to open issue if you have any issues. 
+If you follow my instructions above, you will be able to use the snippets. Hope it helps you. Feel free to open issue if you have any issues. 
