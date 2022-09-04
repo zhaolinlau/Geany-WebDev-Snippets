@@ -10,7 +10,7 @@ However, Geany doesn't have [Emmet](https://emmet.io/) plugin for now. So for sp
 
 ## Getting Started
 
-> ### Step 1: Copy the example snippets that you need from [snippets.conf](https://github.com/zhaolinlau/Geany-WebDev-Snippets/blob/main/snippets.conf)
+> ### Step 1: Copy the example snippets that you need from <a href="https://github.com/zhaolinlau/Geany-WebDev-Snippets/blob/main/snippets.conf" target="_blank">snippets.conf</a>
 
 > ### Step 2: Open Geany and go to Tools -> Configuration Files -> snippets.conf
 >
