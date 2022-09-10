@@ -8,7 +8,7 @@ Fortunately, I found [Geany](https://www.geany.org/), a powerful, stable and lig
 
 However, Geany doesn't have [Emmet](https://emmet.io/) plugin for now. So for speeding up the workflow of my daily web development, I decided to make my version of web development snippets for Geany. And I made it, it's not perfect but "as long as it's simple, it makes your life simple". For those who want to use it as your web development snippets in Geany, I made an instruction below for you guys on how to add snippets into Geany.
 
-## Getting started
+## Getting Started
 
 > ### Step 1: Copy the example snippets that you need from [snippets.conf](https://github.com/zhaolinlau/Geany-WebDev-Snippets/blob/main/snippets.conf)
 
@@ -32,7 +32,7 @@ However, Geany doesn't have [Emmet](https://emmet.io/) plugin for now. So for sp
 >
 > ![Use Step 2](./img/Use_Step_2.png)
 
-## Setup keybinding (Recommended)
+## Setup Keybinding (Recommended)
 
 I highly recommend you guys to setup keybinding for `Move cursor in snippet` because it's very useful and convenient when using snippets.
 
@@ -52,9 +52,9 @@ I highly recommend you guys to setup keybinding for `Move cursor in snippet` bec
 >
 > ![Snippet Step 4](./img/Snippet_Step_4.png)
 
-## How to use keybinding
+## How to Use Keybinding
 
-Before using the keybinding, you guys have to setup first and may refer to [Setup keybinding (Recommended)](#setup-keybinding-recommended).
+Before using the keybinding, you guys have to setup first and may refer to [Setup Keybinding (Recommended)](#setup-keybinding-recommended).
 
 > ### Step 1: Type the snippet keyword
 >
@@ -97,6 +97,10 @@ Before using the keybinding, you guys have to setup first and may refer to [Setu
 > ![Vue Step 4](./img/Vue_Step_4.png)
 
 > ### Step 5: Press `CTRL+S` to save it
+
+## Changing Theme (Windows 10/11)
+
+In progesss...
 
 ## Summary
 
