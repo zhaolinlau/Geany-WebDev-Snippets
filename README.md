@@ -98,14 +98,6 @@ Before using the keybinding, you guys have to setup first and may refer to [Setu
 
 > ### Step 5: Press `CTRL+S` to save it
 
-## Changing Geany UI Theme on Windows 10/11 (Optional)
-
-> ### Step 1: Download/Clone this repository
-
-> ### Step 2: Go to `Geany-WebDev-Snippets -> themes -> monokai`
-
-> ### Step 3: Drag the whole `gtk-3.0` folder to your `C:\Users\Win10\AppData\Local`
-
 ## Summary
 
 If you follow my instructions above, you will be able to use the snippets. Hope it helps you. Feel free to open issue if you have any issues. 
